@@ -1,0 +1,30 @@
+# Data & Secrets
+data/
+.env
+
+# Test Scripts & Environments
+test_phase*.py
+run_ingestor.py
+build_exe.py
+
+# Documentation (Local Only)
+*.pdf
+
+# IDE Configs
+agents/
+.agents/
+.agent/
+
+# Python Caches & Builds
+__pycache__/
+.pytest_cache/
+mim.egg-info/
+*.egg-info/
+*.pyc
+dist/
+build/
+*.spec
+.venv/
+venv/
+.idea/
+.vscode/
